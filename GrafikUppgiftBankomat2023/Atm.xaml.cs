@@ -76,7 +76,7 @@ namespace GrafikUppgiftBankomat2023
             if (loggedInAccount != null)
             {
 
-                MessageBox.Show($"Your account balance is: {loggedInAccount.Balance:C}");
+                MessageBox.Show($"Your account balance is: {loggedInAccount.Balance:N2}");
             }
         }
 
@@ -93,7 +93,7 @@ namespace GrafikUppgiftBankomat2023
                     
                     SaveUpdatedBalance(loggedInAccount);
 
-                    MessageBox.Show($"Deposit successful! New balance: {loggedInAccount.Balance:C}");
+                    MessageBox.Show($"Deposit successful! New balance: {loggedInAccount.Balance:N2}");
                 }
                 else
                 {
@@ -119,7 +119,7 @@ namespace GrafikUppgiftBankomat2023
                         
                         SaveUpdatedBalance(loggedInAccount);
 
-                        MessageBox.Show($"Withdrawal successful! New balance: {loggedInAccount.Balance:C}");
+                        MessageBox.Show($"Withdrawal successful! New balance: {loggedInAccount.Balance:N2}");
                     }
                     else
                     {
