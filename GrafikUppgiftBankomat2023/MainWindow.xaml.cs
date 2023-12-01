@@ -165,14 +165,6 @@ namespace GrafikUppgiftBankomat2023
 
     }
 
-
-
-
-
-
-
-
-
-        
+              
     }
 }
